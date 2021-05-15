@@ -1,0 +1,26 @@
+{
+  "name": "smongo",
+  "version": "1.0.2",
+  "main": "./lib/index.js",
+  "description": "Mongoose tools",
+  "keywords": [],
+  "homepage": "https://github.com/teniryte/smongo",
+  "license": "MIT",
+  "developing": true,
+  "dependencies": {
+    "async": "^3.2.0",
+    "extend": "^3.0.2",
+    "mongoose": "^5.10.11"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teniryte/smongo.git"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  }
+}
