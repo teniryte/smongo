@@ -1,6 +1,6 @@
 {
   "name": "smongo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./lib/index.js",
   "description": "Mongoose tools",
   "keywords": [],
@@ -10,7 +10,7 @@
   "dependencies": {
     "async": "^3.2.0",
     "extend": "^3.0.2",
-    "mongoose": "^5.10.11"
+    "mongoose": "^5.12.9"
   },
   "scripts": {
     "test": "./node_modules/.bin/jest ./test/index.js"
@@ -22,5 +22,6 @@
   "author": {
     "name": "teniryte",
     "email": "teniryte@gmail.com"
-  }
+  },
+  "devDependencies": {}
 }
